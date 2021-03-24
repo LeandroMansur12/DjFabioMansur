@@ -1,0 +1,227 @@
+html{
+
+	margin:0;
+}
+.biografia{
+
+	margin-top: 100px;
+}
+#nomeDj{
+
+font-family: 'Bowlby One SC', cursive;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Courgette', cursive;
+}
+
+.linkaba{
+	height: 60px;
+}
+
+.fotoDj{
+
+	width: 700px;
+	height:600px;
+
+
+}
+
+.textoPrincipal{
+
+	width: 400px;
+	text-align: center;
+	margin-left: 300px;
+
+
+}
+.foto{
+	text-align: center;
+	margin-left: 3000px
+}
+
+blockquote{
+
+	border: 10 solid white;
+	float:left;
+	margin-right:30px;
+}
+body{
+
+	background-color:#A9A9A9;
+
+}
+
+h1, h2{
+
+	font-size:200px;
+	color:#F0F8FF;
+	font-size:70px;
+}
+
+p{
+
+	color:#F0F8FF;
+	font-size:20px;
+	margin:0;
+
+}
+
+.minhasFotos{
+	width: 200px;
+	clear:both;
+	display: flex;
+}
+
+h1{
+
+	text-transform: uppercase;
+	font-family: 'Monoton', cursive;
+	font-family: 'Frijole', cursive;
+	text-align: center;
+}
+
+.tituloFoto{
+	padding-top: 100px;
+}
+
+
+ul {
+ list-style-type: none;
+ }
+
+ .videos{
+
+ 	clear: both;
+ }
+
+ .foto3{
+
+ 	float:right;
+	margin-right:30px;
+ }
+
+ .redesSociais{
+
+ 	background-color: #363636;
+ 	clear:both;
+ 	padding: 40px;
+ }
+
+ .musica{
+
+ 	width: 800px;
+ 	margin:0;
+
+
+ }
+
+ .minhasMusicas{
+
+ 	display:flex;
+ }
+
+ .menu{
+
+ 	font-size: 15px;
+ 	color:#F0F8FF;
+ }
+
+ .menu li{
+
+ 	display: inline-block;
+ 	margin-left: 10px;
+ 	background-color:#aaa;
+ 	color:rgb(0, 140, 255);
+ 	border-radius: 10px;
+ 	padding:15px;
+
+
+ }
+
+ li:hover, .active {
+    text-transform: uppercase;
+    background-color: #ffffff;
+}
+
+a{
+
+	text-decoration: none;
+ }
+.tamfotos{
+	height: 400px;
+	object-fit: cover;
+	cursor:pointer;
+
+}
+
+.link{
+	
+	height: 40px;
+	color:black;
+}
+
+.tamApli{
+	
+	height: 200px;
+	width: 200px;
+	object-fit: cover;
+	cursor:pointer;
+	justify-content: space-around;
+	width: 15%;
+	margin-left: 10% ;
+	
+
+}
+
+
+
+.musicasDj{
+	color: black;
+	font-size: 200%;
+}
+
+.audio1{
+
+	padding-top: 300px;
+}
+
+.avisos{
+
+	margin-top: 30%;
+}
+
+@media screen and (min-width: 360px) and  (max-width: 700px){
+
+	.textoPrincipal{
+		
+		margin-left: 25%;
+	}
+	
+	.fotPrinc{
+		width: 100%;
+
+		margin-left: 25%;
+	}
+
+	.tamfotos{
+
+		object-fit: cover;
+	}
+	.fotog{
+		width: 100%;
+		flex-direction: column;
+	}
+
+	  .seguir .tamApli{
+		margin:2%;
+		width: 40%;
+		align-items: center;
+		display: grid;
+		margin-left: 30%;
+	}
+	.play{
+
+		margin-left: 40px;
+	}
+}
+
